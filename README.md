@@ -52,12 +52,3 @@ No license file found in the repository. If you want this project to be open sou
 ## Contact
 Author: @Alisher7172
 
----
-
-Small, focused, and easy to extend — this README gives quick setup instructions and suggestions to improve the project. If you'd like, I can:
-- open a branch and create a PR with this README updated,
-- add badges (demo, license, language),
-- or add a screenshot and a short GIF showing the clock in action.
-
-Tell me which of those you'd like me to do next and I will create the branch and PR for you.
-```
