@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="side">
+        <div>
+            <h1 class="dc">Digital Clock</h1>
+        </div>
+        <div class="box-2" data-24hour="false" id="toggleFormat">
+            <div class="btn btn-two">
+                <span>Toggle 24h/12h</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Current Time</h1>
+        <div class="time">
+            <span id="hours">00</span> :
+            <span id="minutes">00</span> :
+            <span id="seconds">00</span>
+            <span id="ampm">AM</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
